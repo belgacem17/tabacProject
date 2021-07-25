@@ -1,0 +1,61 @@
+<div class=" content">
+    <div class=" row">
+        <div class=" col-md-12">
+            <div class=" card">
+                <div class=" card-header">
+                    <div class=" row">
+                        <div class=" col-md-2">
+                            <h4 class=" card-title">List Agents</h4>
+
+                        </div>
+                        <div class=" col-md-1">
+                            <button style="background-color: darkslategrey;" mat-fab color="primary" mat-raised-button (click)="openDialog()">
+                            <mat-icon>plus_one</mat-icon>
+                            </button>
+                        </div>
+                        <div class=" col-md-9">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" card-body">
+                    <div class=" table-responsive">
+                        <table class=" table tablesorter" id="">
+                            <thead class=" text-primary">
+                                <tr>
+                                    <th>Last Name & First Name</th>
+                                    <th>Email</th>
+                                    <th>Mobile</th>
+                                    <th>User Type</th>
+                                    <th class=" text-center"> </th>
+                                </tr>
+                            </thead>
+                            <tbody *ngFor="let item of listUser let i=index">
+                                <tr>
+                                    <td>{{item.lastName}} {{item.firstName}}</td>
+                                    <td>{{item.email}} </td>
+                                    <td>{{item.mobile}} </td>
+
+                                    <td class=" text-center">{{item.userType==1 ? 'Agent' : 'Professionel'}} </td>
+                                    <td>
+                                        <div class="row">
+                                            <div class=" col-md-6" style="text-align: center;padding-right: 0px;">
+                                                <button class="btn-circle btn-sm" type="button" (click)="UpdateUser(item,i)">U</button>
+                                            </div>
+                                            <div class="col-6" style="padding-left: 0px;">
+                                                <button class="btn-circle btn-sm-danger" type="button" (click)="deleteUser(item.userId)">R</button> </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

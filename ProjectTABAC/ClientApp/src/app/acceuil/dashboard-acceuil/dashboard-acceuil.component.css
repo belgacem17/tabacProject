@@ -1,0 +1,19 @@
+.navbar-nav {
+    flex-direction: unset;
+}
+
+.probootstrap-navbar .navbar-brand {
+    background: unset
+}
+
+.navbar .navbar-brand {
+    font-size: 2rem;
+}
+
+.table-responsive {
+    overflow: unset;
+}
+
+.card-tasks {
+    height: auto;
+}

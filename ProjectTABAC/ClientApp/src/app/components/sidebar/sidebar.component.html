@@ -1,0 +1,21 @@
+<div class="logo">
+    <a href="/" class="simple-text logo-mini">
+        <div class="logo-img">
+            <img src="./assets/dashboard/img/rnta.png" style="height: 38px" />
+        </div>
+    </a>
+    <a href="#" class="simple-text logo-normal">
+   TABAC
+  </a>
+</div>
+<div class="sidebar-wrapper">
+    <ul class="nav">
+        <li routerLinkActive="active" *ngFor="let menuItem of menuItems" class="{{ menuItem.class }} nav-item">
+            <a [routerLink]="[menuItem.path]">
+                <i class="tim-icons  {{ menuItem.icon }}" style="color:black"></i>
+
+                <p style="color:black">{{ menuItem.title }}</p>
+            </a>
+        </li>
+    </ul>
+</div>

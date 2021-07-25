@@ -1,0 +1,27 @@
+ .table-responsive {
+     overflow: unset;
+ }
+ 
+ table {
+     font-size: initial;
+ }
+ 
+ .btn-circle.btn-sm {
+     width: 100%;
+     height: 100%;
+     padding: 6px 0px;
+     border-radius: 15px;
+     font-size: 17px;
+     text-align: center;
+     background-color: green;
+ }
+ 
+ .btn-circle.btn-sm-danger {
+     width: 100%;
+     height: 100%;
+     padding: 6px 0px;
+     border-radius: 15px;
+     font-size: 17px;
+     text-align: center;
+     background-color: red;
+ }

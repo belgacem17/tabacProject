@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\ProjetPFE\TabacDB\bin\Debug\TabacDB.dacpac
+C:\Users\Administrator\Desktop\ProjetPFE\TabacDB\bin\Debug\TabacDB.dll
+C:\Users\Administrator\Desktop\ProjetPFE\TabacDB\bin\Debug\TabacDB.pdb
+C:\Users\Administrator\Desktop\ProjetPFE\TabacDB\obj\Debug\TabacDB.dll
+C:\Users\Administrator\Desktop\ProjetPFE\TabacDB\obj\Debug\TabacDB.pdb

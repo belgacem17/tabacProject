@@ -1,0 +1,13 @@
+.card label {
+    font-size: 1.75rem;
+    margin-bottom: 5px;
+}
+
+form-group .form-control,
+.input-group .form-control {
+    padding: 20px 20px 20px 20px;
+}
+
+.form-control {
+    font-size: 1.5rem;
+}

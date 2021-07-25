@@ -1,0 +1,51 @@
+<div class=" row">
+    <div class=" col-md-12">
+        <div class=" card">
+            <div class=" card-header">
+                <h5 class=" title">Add Question</h5>
+            </div>
+            <div class=" card-body">
+                <form>
+                    <div class=" row">
+                        <div class=" col-md-12 pr-md-1">
+                            <div class=" form-group">
+                                <label> Question  </label>
+                                <textarea class=" form-control" placeholder="Question Text" type="text" value="{{data.questionText}}"></textarea>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class=" row">
+                        <div class=" col-md-12 px-md-1">
+                            <div class=" form-group">
+                                <label> Answer </label>
+                                <textarea class=" form-control" placeholder="Response Text" type="text" value="{{data.responses[0].responseText}}"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" row">
+                        <div class=" col-md-6 pl-md-1">
+                            <div class=" form-group">
+                                <label for=""> Question Type </label>
+                                <select class="select">
+                                    <option value="0"  selected>Select Question</option>
+                                    <option value="1">Agent</option>
+                                    <option value="2">Professionel</option>
+                                    <option value="3">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class=" card-footer">
+                <button mat-button (click)="onNoClick()" class=" btn btn-fill btn-danger" type="submit">Save</button>
+
+            </div>
+        </div>
+    </div>
+
+</div>
